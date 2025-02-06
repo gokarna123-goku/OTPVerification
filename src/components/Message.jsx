@@ -36,7 +36,7 @@ const Message = ({ message, onClose, type }) => {
                     }
                 </span>
                 <span>
-                    {message} <span className="text-red-600">({countdown}s)</span>
+                    {message} <span className="text-red-600 ml-2">({countdown}s)</span>
                 </span>
             </div>
         </div>
